@@ -19,7 +19,13 @@
       <div>
         <h2>How Many Clicks?</h2>
         <p id="click-counter"></p>
-        <button class="btn" onclick="incrementCounter()">CLICK ME!</button>
+        <div class="btn-container">
+          <button class="btn click" onclick="incrementCounter()">
+            CLICK HERE
+          </button>
+          <button class="btn save" onclick="save()">SAVE</button>
+        </div>
+        <p id="save-counter">Previous Entries:</p>
       </div>
     </div>
   </body>

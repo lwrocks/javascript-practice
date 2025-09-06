@@ -1,9 +1,18 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    font-family: 'Inter', sans-serif;
+  margin: 0;
+  font-family: "Inter", sans-serif;
 }
 
+.content-container {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+
+.btn-container {
+  display: grid;
+}
