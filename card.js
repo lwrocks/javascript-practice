@@ -10,6 +10,7 @@ function incrementCounter() {
   countDisplay.textContent = counter;
 }
 
+// Function to decrease the counter and update the display
 function decreaseCounter() {
   counter -= 1;
   countDisplay.textContent = counter;
@@ -17,6 +18,8 @@ function decreaseCounter() {
 
 // Function to save the current counter value and update the save display
 function save() {
-  let countStr = counter + " - ";
+  let countStr = " " + counter + " - ";
   saveDisplay.textContent += countStr;
+  counter = 0;
+  countDisplay.textContent = counter;
 }
